@@ -8,7 +8,7 @@
 На тестирование затрачено: 1 минута.
 
 В результате тестирования дефектов не выявлено
-("результат mvn clean test")[https://drive.google.com/file/d/1YJoWJucx-43O05Nw8YmxL6OCBU4OTkgt/view?usp=sharing]
+["результат mvn clean test"](https://drive.google.com/file/d/1YJoWJucx-43O05Nw8YmxL6OCBU4OTkgt/view?usp=sharing)
 
 
 ## Описание процесса тестирования
