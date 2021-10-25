@@ -1,9 +1,9 @@
 
 public class SQRService {
 
-    public   int CalculateSquaresService(int bottomMinimum, int bottomMaximum, int zero){
+    public int сalculateSquaresService(int bottomMinimum, int bottomMaximum) {
 
-
+        int zero = 0;
         for (int i = 10; i < 100; i++) {
             if (i * i > bottomMinimum && i * i < bottomMaximum) {
 
@@ -11,8 +11,9 @@ public class SQRService {
                 if (i * i > bottomMaximum) {
                     break;
                 }
-                            }
-        } return zero;
+            }
+        }
+        return zero;
     }
 
 }

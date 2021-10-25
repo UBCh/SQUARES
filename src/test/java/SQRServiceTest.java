@@ -7,9 +7,8 @@ class SQRServiceTest {
         SQRService service = new SQRService();
        int bottomMinimum = 200;
        int bottomMaximum = 300;
-       int zero = 0;
-        int expected = 3;
-        int actual = service.CalculateSquaresService(bottomMinimum,bottomMaximum,zero);
+       int expected = 3;
+        int actual = service.сalculateSquaresService(bottomMinimum,bottomMaximum);
         assertEquals(expected, actual);
     }
 
